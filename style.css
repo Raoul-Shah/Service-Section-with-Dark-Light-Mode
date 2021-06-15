@@ -92,11 +92,52 @@
 .container .box-container .box h3 {
     font-size: 25px;
     color: var(--primary-text-color);
+    text-transform: capitalize;
 }
 
 .container .box-container .box p {
     font-size: 18px;
     color: var(--secondary-text-color);
     padding: 5px;
+}
+
+#theme-toggler {
+    position: fixed;
+    top: 15px;
+    right: 25px;
+    padding: 15px 20px;
+    font-size: 30px;
+    background: var(--secondary-bg-color);
+    color: var(--primary-text-color);
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+}
+
+#theme-toggler:hover {
+    background: #42b530;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .container {
+        padding: 80px 20px;
+    }
+
+    .container .title {
+        font-size: 35px;
+    }
+
 }
 
