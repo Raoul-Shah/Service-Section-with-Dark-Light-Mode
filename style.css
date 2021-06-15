@@ -7,6 +7,13 @@
     --secondary-text-color: #999;
 }
 
+body.active {
+    --primary-bg-color: #222;
+    --secondary-bg-color: #333;
+    --primary-text-color: #fff;
+    --secondary-text-color: #eee;
+}
+
 * {
     font-family: 'Nunito', sans-serif;
     margin: 0;
@@ -112,6 +119,7 @@
     cursor: pointer;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
     border-radius: 5px;
+    z-index: 1000;
 }
 
 #theme-toggler:hover {
